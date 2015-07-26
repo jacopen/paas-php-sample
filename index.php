@@ -22,6 +22,10 @@ echo $_SERVER["SERVER_ADDR"]
 ?></h2>
 <h2>Server PORT
 <?php
+echo $_ENV["PORT"]
+?></h2>
+<h2>PHP PORT
+<?php
 echo $_SERVER["SERVER_PORT"]
 ?></h2>
 
